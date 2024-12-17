@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind project</title>
+    <link rel="shortcut icon" href="./src/images/Gradient-Website-Development.png" type="image/x-icon">
+    <link rel="stylesheet" href="./dist/output.css">
+</head>
+
+<body>
+    <header class="bg-slate-200 md:h-lvh">
+        <div class="header-layer bg-layer-image h-full">
+            <nav class="w-full z-20 top-0 start-0">
+                <div class="container px-10 flex flex-wrap gap-5 items-center justify-between mx-auto p-4">
+                    <div class="flex gap-7">
+                        <a href="" class="flex items-center space-x-3 rtl:space-x-reverse">
+                            <img src="./src/images/site-logo.png" class="h-5" alt="Brainwave logo">
+                        </a>
+                        <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
+                            id="navbar-sticky">
+                            <ul
+                                class="flex flex-col p-4 md:p-0 mt-4 font-medium rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0">
+                                <li>
+                                    <a href="#" class="nav-link">Demos</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="nav-link">Pages</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="nav-link">Support</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="nav-link">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="flex md:order-2  md:space-x-0 rtl:space-x-reverse">
+                        <button type="button"
+                            class="text-white hidden sm:block bg-main-color focus:outline-none font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-main-color">
+                            Get started a project
+                        </button>
+                        <button data-collapse-toggle="navbar-sticky" type="button"
+                            class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden focus:outline-none"
+                            aria-controls="navbar-sticky" aria-expanded="false">
+                            <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 17 14">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" d="M1 1h15M1 7h15M1 13h15" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="container mx-auto px-20 py-10 grid grid-cols-1 md:grid-cols-2 gap-4 mt-10">
+                <div class="flex flex-col justify-center gap-5">
+                    <span class="text-red-500 font-semibold">Let’s shift your business</span>
+                    <h2 class="text-2xl md:text-6xl font-bold">Shift your business fast with Shade Pro.</h2>
+                    <p>
+                        With lots of unique blocks, you can easily build a page without coding. Build your next
+                        consultancy
+                        website within few minutes.
+                    </p>
+                    <button type="button"
+                        class="text-white bg-main-color w-fit font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2">
+                        Get started a project
+                    </button>
+                </div>
+                <div class="flex items-center justify-center md:justify-end">
+                    <img src="./src/images/header-image.png" class="w-2/3" alt="header-image">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="pt-10">
+        <section class="our-services container mx-auto px-10 sm:px-20 py-10 text-center">
+            <span class="text-red-500 font-semibold">OUR SERVICES</span>
+            <h3 class="text-xl md:text-4xl font-bold md:max-w-[50%] mx-auto mt-5 px-5">
+                We provide great services for our customers
+                based on needs
+            </h3>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 py-10 gap-10">
+                <div class="bg-[#68D585] rounded-lg shadow flex flex-col items-center pt-10">
+                    <img class="rounded-t-lg w-20 h-20" src="./src/images/Graphic-Design-Services.png"
+                        alt="Graphic Design Services" />
+                    <div class="p-5">
+                        <a href="#">
+                            <h5 class="mb-2 text-white text-xl sm:text-2xl font-bold tracking-tight">Graphic Design</h5>
+                        </a>
+                        <p class="mb-3 font-normal text-slate-200">
+                            With lots of unique blocks, you can easily build a page without coding. Build your next
+                            landing page.
+                        </p>
+                        <a href="#" class="w-fit mx-auto py-2 flex items-center text-white rounded-lg">
+                            <span class="me-10">Learn more</span>
+                            <img src="./src/images/arrow-right.png" class="w-3 h-3" alt="arrow-right">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="bg-[#473BF0] rounded-lg shadow flex flex-col items-center pt-10">
+                    <img class="rounded-t-lg  w-20 h-20" src="./src/images/Web-Development-Services.png"
+                        alt="Web Development Services" />
+                    <div class="p-5">
+                        <a href="#">
+                            <h5 class="mb-2 text-white text-xl sm:text-2xl font-bold tracking-tight">Web Development
+                            </h5>
+                        </a>
+                        <p class="mb-3 font-normal text-slate-200">
+                            With lots of unique blocks, you can easily build a page without coding. Build your next
+                            landing page.
+                        </p>
+                        <a href="#" class="w-fit mx-auto py-2 flex items-center text-white rounded-lg">
+                            <span class="me-10">Learn more</span>
+                            <img src="./src/images/arrow-right.png" class="w-3 h-3" alt="arrow-right">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="bg-[#F64B4B] rounded-lg shadow flex flex-col items-center pt-10 relative">
+                    <img src="./src/images/services-dots.png"
+                        class="absolute bottom-[-50px] right-[-30px] sm:right-[-50px] z-[-1]" alt="service-dots">
+
+                    <img class="rounded-t-lg  w-20 h-20" src="./src/images/Content-Writing-Services.png"
+                        alt="Content Writing Services" />
+
+                    <div class="p-5">
+                        <a href="#">
+                            <h5 class="mb-2 text-white text-xl sm:text-2xl font-bold tracking-tight">Content Writing
+                            </h5>
+                        </a>
+                        <p class="mb-3 font-normal text-slate-200">
+                            With lots of unique blocks, you can easily build a page without coding. Build your next
+                            landing page.
+                        </p>
+                        <a href="#" class="w-fit mx-auto py-2 flex items-center text-white rounded-lg">
+                            <span class="me-10">Learn more</span>
+                            <img src="./src/images/arrow-right.png" class="w-3 h-3" alt="arrow-right">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#"
+                class="container mx-auto px-5 flex flex-col md:flex-row items-center gap-10 py-10 border-b border-b-slate-300">
+                <img class="w-28" src="./src/images/Franklin-Hicks-Web-Developer.png"
+                    alt="Franklin Hicks (Web Developer)">
+                <div class="p-4 text-start">
+                    <div class="flex gap-1 mb-5">
+                        <img src="./src/images/star.png" class="w-4 h-4" alt="star">
+                        <img src="./src/images/star.png" class="w-4 h-4" alt="star">
+                        <img src="./src/images/star.png" class="w-4 h-4" alt="star">
+                        <img src="./src/images/star.png" class="w-4 h-4" alt="star">
+                        <img src="./src/images/star.png" class="w-4 h-4" alt="star">
+                    </div>
+                    <span class="text-xl font-bold tracking-tight">
+                        “OMG! I cannot believe that I have got a brand new landing page after getting Albino. It was
+                        super easy to edit and publish.”
+                    </span>
+                    <p class="mt-5">
+                        <span class="font-bold">Franklin Hicks</span> Web Developer
+                    </p>
+                </div>
+            </a>
+        </section>
+
+        <section class="our-story container mx-auto px-20 py-10">
+            <span class="text-red-500 font-semibold">OUR STORY</span>
+            <h3 class="text-xl md:text-4xl font-bold md:max-w-[50%] mt-5">
+                We know how everything works and why your business is failing over and over again.
+            </h3>
+
+            <div class="py-10 grid grid-cols-1 md:grid-cols-2 mt-10 gap-10 md:gap-4">
+                <div class="flex flex-col justify-center gap-5 pt-20">
+                    <img src="./src/images/Story-hero-1.png" class="w-5/6" alt="Story-hero-1">
+                </div>
+
+                <div>
+                    <div class="flex  items-center justify-between gap-5">
+                        <div class="w-fit h-2/3 relative">
+                            <img src="./src/images/story-dots.png"
+                                class="absolute top-[-15px] end-[-15px] md:top-[-30px] md:end-[-30px] w-12 h-12 md:w-20 md:h-20"
+                                alt="story-dots">
+                            <img src="./src/images/Story-hero-2.png" alt="Story-hero-2">
+                        </div>
+                        <img src="./src/images/Story-hero-3.png" class="w-1/3 h-w-1/3" alt="Story-hero-3">
+                    </div>
+                    <p class="text-slate-400 py-20">
+                        We share common trends and strategies for improving your rental income and making sure you
+                        stay in high demand. With lots of unique blocks, you can easily build a page without coding.
+                        Build your next landing page.
+                    </p>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 text-center">
+                <div class="p-10">
+                    <span class="text-3xl font-bold">1M+</span>
+                    <p class="text-slate-500">
+                        Customers visit Omega every month to get their service done.
+                    </p>
+                </div>
+
+                <div class="p-10">
+                    <span class="text-3xl font-bold">92%</span>
+                    <p class="text-slate-500">
+                        Satisfaction rate comes from our awesome customers.
+                    </p>
+                </div>
+
+                <div class="p-10">
+                    <span class="text-3xl font-bold">4.9/5.0</span>
+                    <p class="text-slate-500">
+                        Average customer ratings we have got all over internet.
+                    </p>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="about-us bg-[#F4F7FA] py-10 text-center relative">
+            <img src="./src/images/about-us-dots.png" class="absolute top-20 w-15 h-20" alt="">
+            <div class="container mx-auto px-20">
+                <span class="text-red-500 font-semibold">WHY CHOOSE US</span>
+
+                <h3 class="text-xl md:text-4xl font-bold md:max-w-[50%] mx-auto mt-5 px-5">
+                    People choose us because we serve the best for everyone
+                </h3>
+
+                <div class="container mx-auto px-5 lg:px-20 py-10 grid grid-cols-1 md:grid-cols-2 gap-4 mt-10">
+                    <a href="#" class="flex flex-col md:flex-row rounded-lg">
+                        <img class="object-cover w-16 h-16 mb-5 rounded-t-lg md:rounded-none md:rounded-s-lg"
+                            src="./src/images/dedicated-project-manager-icon.png" alt="Dedicated project manager">
+                        <div class="flex flex-col px-4 leading-normal text-start">
+                            <span class="mb-2 text-xl font-bold tracking-tight">Dedicated project manager</span>
+                            <p class="mb-3 text-slate-500">
+                                With lots of unique blocks, you can easily build a page without coding. Build your next
+                                landing page.
+                            </p>
+                        </div>
+                    </a>
+
+                    <a href="#" class="flex flex-col md:flex-row rounded-lg">
+                        <img class="object-cover w-16 h-16 mb-5 rounded-t-lg md:rounded-none md:rounded-s-lg"
+                            src="./src/images/organized-tasks-icon.png" alt="Organized tasks">
+                        <div class="flex flex-col px-4 leading-normal text-start">
+                            <span class="mb-2 text-xl font-bold tracking-tight">Organized tasks</span>
+                            <p class="mb-3 text-slate-500">
+                                With lots of unique blocks, you can easily build a page without coding. Build your next
+                                landing page.
+                            </p>
+                        </div>
+                    </a>
+
+                    <a href="#" class="flex flex-col md:flex-row rounded-lg">
+                        <img class="object-cover w-16 h-16 mb-5 rounded-t-lg md:rounded-none md:rounded-s-lg"
+                            src="./src/images/feedback-icon.png" alt="Easy feedback sharing">
+                        <div class="flex flex-col px-4 leading-normal text-start">
+                            <span class="mb-2 text-xl font-bold tracking-tight">Easy feedback sharing</span>
+                            <p class="mb-3 text-slate-500">
+                                With lots of unique blocks, you can easily build a page without coding. Build your next
+                                landing page.
+                            </p>
+                        </div>
+                    </a>
+
+                    <a href="#" class="flex flex-col md:flex-row rounded-lg">
+                        <img class="object-cover w-16 h-16 mb-5 rounded-t-lg md:rounded-none md:rounded-s-lg"
+                            src="./src/images/deadline-icon.png" alt="Never miss deadline">
+                        <div class="flex flex-col px-4 leading-normal text-start">
+                            <span class="mb-2 text-xl font-bold tracking-tight">Never miss deadline</span>
+                            <p class="mb-3 text-slate-500">
+                                With lots of unique blocks, you can easily build a page without coding. Build your next
+                                landing page.
+                            </p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="flex flex-col md:flex-row gap-5 justify-between items-center text-start pt-20">
+                    <div class="max-w-full md:max-w-[50%]">
+                        <span class="text-xl font-bold">Ready to launch your next project?</span>
+                        <p class="text-slate-500">
+                            With lots of unique blocks, you can easily build a page without coding. Build your next
+                            landing
+                            page.
+                        </p>
+                    </div>
+
+                    <button type="button"
+                        class="text-white bg-main-color w-fit font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2">Get
+                        started a project</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="case-studies py-20 text-center">
+            <span class="text-red-500 font-semibold">CASE STUDIES</span>
+            <h3 class="text-2xl md:text-4xl font-bold md:max-w-[40%] mt-5 mx-auto px-3">
+                Our works describe why we are the best in the business
+            </h3>
+
+            <div class="container mx-auto px-5 md:px-20 py-10 flex flex-col sm:flex-row justify-around gap-10 mt-10">
+                <div class="text-start">
+                    <div class="mb-10">
+                        <img src="./src/images/Aura-Branding-Design.png" alt="">
+                        <p class="text-slate-500 font-semibold mt-5 mb-2">Graphic Design</p>
+                        <span class="font-bold text-xl">Aura Branding Design</span>
+                    </div>
+
+                    <div>
+                        <img src="./src/images/Gradient-Website-Development.png" alt="">
+                        <p class="text-slate-500 font-semibold mt-5 mb-2">Graphic Design</p>
+                        <span class="font-bold text-xl">Aura Branding Design</span>
+                    </div>
+                </div>
+
+                <div class="text-start">
+                    <div class="mb-10">
+                        <img src="./src/images/AB.S-Snack-Packaging.png" alt="">
+                        <p class="text-slate-500 font-semibold mt-5 mb-2">Graphic Design</p>
+                        <span class="font-bold text-xl">Aura Branding Design</span>
+                    </div>
+
+                    <div>
+                        <img src="./src/images/Magazine-Content-Writing.png" alt="">
+                        <p class="text-slate-500 font-semibold mt-5 mb-2">Graphic Design</p>
+                        <span class="font-bold text-xl">Aura Branding Design</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex items-center justify-center">
+                <span class="text-main-color me-5 font-bold">See all works</span>
+                <img src="./src/images/arrow-right-colorfull.png" class="h-3 w-3" alt="arrow-right-colorfull">
+            </div>
+        </section>
+
+        <section
+            class="Testimonial bg-testimonial-layer bg-main-color py-20 flex flex-col items-center justify-center gap-7 text-center">
+            <span class="text-red-500 font-semibold">TESTIMONIAL</span>
+
+            <h3 class="text-2xl md:text-3xl font-bold md:max-w-[50%] mx-auto px-5 text-white">
+                “Simply the best. Better than all the rest. I’d recommend this product to beginners and advanced users.”
+            </h3>
+
+            <div class="flex flex-col items-center gap-2">
+                <img src="./src/images/Ian-Klein-Digital-Marketer.png" class="w-20 h-20"
+                    alt="Ian Klein Digital Marketer">
+                <span class="font-bold text-white">Ian Klein</span>
+                <p class="text-slate-400 font-semibold">Digital Marketer</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="py-20 bg-black">
+        <div class="container mx-auto px-5 md:px-20">
+            <div class=" flex flex-col md:flex-row gap-5 justify-between items-center text-start py-10 border-b
+            border-b-slate-900">
+                <div class="max-w-[50%]">
+                    <span class="text-xl text-white font-bold">Ready to launch your next project?</span>
+                    <p class="text-slate-500">
+                        With lots of unique blocks, you can easily build a page without coding. Build your next
+                        landing
+                        page.
+                    </p>
+                </div>
+
+                <button type="button"
+                    class="text-white bg-main-color w-fit font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2">Get
+                    started a project</button>
+            </div>
+
+            <div class="grid grid-cols-1 gap-8 px-4 mt-10 sm:grid-cols-2 md:grid-cols-5">
+                <div>
+                    <span class="text-xl font-bold text-white uppercase">Brainwave.io</span>
+
+                    <p href="#" class="text-slate-500 my-5">
+                        With lots of unique blocks, you
+                        can easily build a page without coding. Build your next landing page.
+                    </p>
+
+                    <div class="flex gap-5">
+                        <a href="">
+                            <img src="./src/images/logo-twitter.png" class="w-4 h-4" alt="logo-twitter">
+                        </a>
+                        <a href="">
+                            <img src="./src/images/logo-facebook.png" class="w-4 h-4" alt="logo-facebook">
+                        </a>
+                        <a href="">
+                            <img src="./src/images/logo-instagram.png" class="w-4 h-4" alt="logo-instagram">
+                        </a>
+                        <a href="">
+                            <img src="./src/images/logo-linkedin.png" class="w-4 h-4" alt="logo-linkedin">
+                        </a>
+                    </div>
+                </div>
+
+                <div>
+                    <span class="text-sm font-semibold text-slate-500 uppercase">Company</span>
+                    <ul class="text-white dark:text-gray-400 font-medium mt-5">
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">About us</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Contact us</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Careers</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Press</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <span class="text-sm font-semibold text-slate-500 uppercase">Product</span>
+                    <ul class="text-white font-medium mt-5">
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Features</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Pricing</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">News</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Help desk</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Support</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <span class="mb-6 text-sm font-semibold text-slate-500 uppercase">Services</span>
+                    <ul class="text-white font-medium mt-5">
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Digital Marketing</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Content Writing</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">SEO for Business</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">UI Design</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <span class="text-sm font-semibold text-slate-500 uppercase">Legal</span>
+                    <ul class="text-white font-medium mt-5">
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Privacy Policy</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Terms & Conditions</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Return Policy</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

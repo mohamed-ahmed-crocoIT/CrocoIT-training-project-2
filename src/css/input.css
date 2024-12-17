@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .nav-link {
+    @apply block py-2 px-3 text-gray-900 rounded md:hover:bg-transparent md:hover:text-main-color md:p-0 md:dark:hover:text-blue-500 dark:text-main-color dark:hover:text-white;
+  }
+}
